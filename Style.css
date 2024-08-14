@@ -1,0 +1,56 @@
+body {
+    color:black;
+   background:rgb(117, 232, 101);
+   margin: 0px;
+   font-family: "Poppins", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px darkgreen;
+    padding: 25px;
+    font-size: 22px;
+    color: rgb(2, 59, 2);
+}
+.chamada{
+    background-color: rgb(254, 201, 131);
+    padding-bottom: 70px;
+    padding-top: 70px;
+    display:flex;
+    justify-content: center;
+}
+
+div {
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+img {
+    height: 150px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+  
+  .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
+
+  .categoria-videos img {
+    opacity: 0.5;
+    height: 15s0px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
